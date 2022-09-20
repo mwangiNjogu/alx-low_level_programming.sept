@@ -1,16 +1,16 @@
 #include "main.h"
 
 /**
- * swap_int -  given two intergers swap the values they are holding
- * @a: parameter 1
- * @b: parameter 2
+ * swap_int - swaps two intergers' values
+ * @a: first interger
+ * @b: second interger
+ * Return: returns nothing
  */
 
 void swap_int(int *a, int *b);
 {
-	int tmp;
+	int tmp = *a;
 
-	tmp = *a;
 	*a = *b;
 	*b = tmp;
 }
