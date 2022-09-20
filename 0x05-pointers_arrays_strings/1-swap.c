@@ -4,14 +4,13 @@
  * swap_int - swaps two intergers' values
  * @a: first interger
  * @b: second interger
- * Return: returns nothing
+ * Returns: returns nothing
  */
 
-void swap_int(int *a, int *b);
+void swap_int(int *a, int *b)
 {
 	int tmp = *a;
 
 	*a = *b;
 	*b = tmp;
 }
-
